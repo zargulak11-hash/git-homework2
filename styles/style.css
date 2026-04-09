@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0px;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
-.header{
+
+.header {
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
@@ -12,12 +14,14 @@ body{
     justify-content: center;
     gap: 1470px;
 }
-.mg{
+
+.mg {
     background-color: #F4F4F5;
     padding: 10px;
     border-radius: 10px;
 }
-.header1{
+
+.header1 {
     margin: auto;
     margin-top: 50px;
     padding-top: 60px;
@@ -27,15 +31,18 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.divleft{
+
+.divleft {
     display: flex;
     flex-direction: column;
     row-gap: 50px;
 }
-.divright{
+
+.divright {
     margin-top: -170px;
 }
-.btn{
+
+.btn {
     width: 200px;
     height: 50px;
     border-radius: 10px;
@@ -43,52 +50,165 @@ body{
     background-color: #D7B18D;
     font-size: 20px;
 }
-.podbor{
+
+.podbor {
     width: 800px;
     font-weight: 400;
     font-size: 80px;
 }
-.darun_dl{
+
+.darun_dl {
     display: flex;
     gap: 10px;
 }
-.img2{
-    position:relative;
+
+.img2 {
+    position: relative;
     bottom: 150px;
     top: 3px;
 }
-.mimg2{
+
+.mimg2 {
     display: none;
 }
-.mpage{
+
+.mpage {
     display: none;
 }
-@media(max-width:510px){
-    .darun_dl{
+
+.img3 {
+    display: none;
+}
+
+.header2 {
+    padding: 30px;
+    margin: auto;
+    margin-top: 130px;
+    padding-top: 30px;
+    width:1690px;
+    height: 175px;
+    background-color:#212731;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.btn1{
+    background-color: #28303D;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: 0px;
+}
+.btn2{
+    background-color: #28303D;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: 0px;
+}
+.see{
+    width: 630px;
+    color: white;
+    font-size: 75px;
+    font-weight: 400;
+
+}
+.img4{
+    position: absolute;
+    right: 75px;
+    top: 1020px;
+}
+.img5{
+    z-index: 2;
+    position:relative;
+    bottom: 30px;
+    
+}
+.mimg3{
+    display: none;
+}
+@media(max-width:510px) {
+    .mimg3{
+        display: block;
+        position: absolute;
+        left: 261px;
+        top: 800px;
+    }
+    .header2{
+        margin-left: 13px;
+        padding: 15px;
+        margin-top: 200px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        
+    }
+    .see{
+        width: 216px;
+        font-size: 25px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        }
+        .btn1{
+            width: 120px;
+        }
+        .btn2{
+            width: 180px;
+        }
+    .img4 {
+        display: none;
+    }
+    .img5{
+        display: none;
+    }
+    .darun_dl {
         margin: auto;
         z-index: 2;
     }
-    .btn{
-    width: 330px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: #D7B18D;
-    font-size: 20px;
-}
-    .divleft{
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-}
-    .img2{
+
+    .btn {
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background-color: #D7B18D;
+        font-size: 20px;
+    }
+
+    .divleft {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: block;
         position: absolute;
         top: 300px;
         left: 30px;
         width: 406px;
         z-index: 1;
     }
-    .mpage{
+
+    .mpage {
         margin: auto;
         display: block;
         width: 182px;
@@ -96,7 +216,8 @@ body{
         font-size: 18px;
         font-weight: 500;
     }
-    .header1{
+
+    .header1 {
         padding: 10px;
         width: 100%;
         padding-top: 0px;
@@ -105,24 +226,28 @@ body{
         background-color: white;
         flex-direction: column;
     }
-    .mimg2{
+
+    .mimg2 {
         z-index: 2;
         margin: auto;
-        margin-top: 250px;
+        margin-top: 210px;
         display: block;
-        width: 380px;
-        
+        width: 400px;
+
     }
-    .mimg1{
+
+    .mimg1 {
         display: none;
     }
-    .podbor{
+
+    .podbor {
         margin: auto;
         text-align: center;
         width: 85%;
         font-size: 40px;
     }
-    .header{
+
+    .header {
         width: 100%;
         margin-top: 0px;
         padding: 15px;
@@ -130,13 +255,15 @@ body{
         justify-content: space-between;
         gap: 0px;
     }
-    .img1{
+
+    .img1 {
         width: 100px;
         height: 21px;
     }
-    .mg{
+
+    .mg {
         background-color: white;
         padding: 0px;
-        border: radius 0;
+        border-radius: 0px;
     }
 }
