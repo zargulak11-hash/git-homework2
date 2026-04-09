@@ -85,19 +85,21 @@ body {
     margin: auto;
     margin-top: 130px;
     padding-top: 30px;
-    width:1690px;
+    width: 1690px;
     height: 175px;
-    background-color:#212731;
+    background-color: #212731;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
 }
-.btns{
+
+.btns {
     margin-top: 20px;
     display: flex;
     gap: 20px;
 }
-.btn1{
+
+.btn1 {
     background-color: #28303D;
     padding: 10px;
     border-radius: 5px;
@@ -106,7 +108,8 @@ body {
     color: white;
     border: 0px;
 }
-.btn2{
+
+.btn2 {
     background-color: #28303D;
     padding: 10px;
     border-radius: 5px;
@@ -115,35 +118,185 @@ body {
     color: white;
     border: 0px;
 }
-.see{
+
+.see {
     width: 630px;
     color: white;
     font-size: 75px;
     font-weight: 400;
 
 }
-.img4{
+
+.img4 {
     position: absolute;
     right: 75px;
     top: 1020px;
 }
-.img5{
+
+.img5 {
     z-index: 2;
-    position:relative;
+    position: relative;
     bottom: 30px;
-    
+
 }
-.mimg3{
+
+.mimg3 {
     display: none;
 }
+
+/***********/
+.nas {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 70px;
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 378px;
+    height: 250px;
+    padding: 25px;
+    border: 1px solid #00000014;
+    border-radius: 10px;
+}
+
+.btns1 {
+    display: flex;
+    gap: 10px;
+}
+
+.line {
+    border: 1px solid #00000014;
+}
+
+.btn3 {
+    width: 200px;
+    height: 53px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D7B18D;
+    font-size: 20px;
+}
+
+.btn4 {
+    width: 200px;
+    height: 53px;
+    border-radius: 10px;
+    border: 1px solid #D7B18D;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.hao {
+    font-size: 16px;
+    font-weight: 500;
+    color: #848C9A;
+}
+
+.ot {
+    font-size: 24px;
+    font-weight: 700;
+    color: #212731;
+}
+
+.menejer {
+    font-size: 20px;
+    font-weight: 500;
+    color: #212731;
+}
+
+.boxs2 {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 378px;
+    height: 100px;
+    padding: 25px;
+    border: 1px solid #00000014;
+    border-radius: 10px;
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.green {
+    font-size: 14px;
+    font-weight: 500;
+    color: #08A652;
+}
+
+.mboxs {
+    display: none;
+}
+
 @media(max-width:510px) {
-    .mimg3{
+    .box1{
+        margin-left: 12px;
+        width: 360px;
+    }
+    .mbox {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 360px;
+        height: 250px;
+        padding: 25px;
+        border: 1px solid #00000014;
+        border-radius: 10px;
+    }
+
+    .mboxs {
+        margin-left: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .boxs {
+        display: none;
+    }
+
+    .boxs2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .nas {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .mimg3 {
         display: block;
         position: absolute;
         left: 261px;
         top: 800px;
     }
-    .header2{
+
+    .header2 {
         margin-left: 13px;
         padding: 15px;
         margin-top: 200px;
@@ -152,29 +305,36 @@ body {
         display: flex;
         justify-content: start;
         align-items: center;
-        
+
     }
-    .see{
+
+    .see {
         width: 216px;
         font-size: 25px;
     }
-    .btns{
+
+    .btns {
         display: flex;
         flex-direction: column;
         width: 210px;
-        }
-        .btn1{
-            width: 120px;
-        }
-        .btn2{
-            width: 180px;
-        }
+    }
+
+    .btn1 {
+        width: 120px;
+    }
+
+    .btn2 {
+        width: 180px;
+    }
+
     .img4 {
         display: none;
     }
-    .img5{
+
+    .img5 {
         display: none;
     }
+
     .darun_dl {
         margin: auto;
         z-index: 2;
