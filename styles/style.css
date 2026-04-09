@@ -248,11 +248,67 @@ body {
     display: none;
 }
 
+.cards {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 350px;
+    height: 136px;
+    padding: 25px;
+    border: 1px solid #00000014;
+    border-radius: 10px;
+}
+
+.vakanciya {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #848C9A;
+}
+
+.images1 {
+    margin-top: -7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seb {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.ceb{
+    font-weight: 700;
+    font-size: 24px;
+}
+.btn5{
+    margin-left: -15px;
+    width: 379px;
+    height: 62px;
+    border-radius: 10px;
+    border: 1px solid #D7B18D;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
 @media(max-width:510px) {
-    .box1{
+    .card{
+        margin-left: 55px;
+    }
+    .box1 {
         margin-left: 12px;
         width: 360px;
     }
+
     .mbox {
         display: flex;
         flex-direction: column;
